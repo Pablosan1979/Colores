@@ -21,7 +21,7 @@ public class Formulario extends JFrame implements ActionListener {
         add(boton1);
         boton1.addActionListener((ActionEvent e) -> {
             Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-            setSize(screenSize.width / 2, screenSize.height / 2);
+            setSize(screenSize.width/2 , screenSize.height );
         });
         mb = new JMenuBar();
         setJMenuBar(mb);
